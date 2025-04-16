@@ -1,0 +1,47 @@
+body {
+    background-image: url("img_hw_1/btFone.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p {
+    color: coral;
+    /* front-size: 32px*/
+    width: 30%;
+    background-color: blue;
+    height: 50px;
+    display: inline-block;
+
+
+}
+
+h1  {
+    color: rgb(19, 19, 19);
+    background-color: rgba(221, 219, 219, 0.2);
+    padding: 7px;
+    margin: 50px 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+sub, sup {
+    size: 32px;
+    color: tan;
+}
+
+span {
+    color: coral;
+
+    width: 30%;
+    background-color: blue;
+    height: 50px;
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
