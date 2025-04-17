@@ -1,13 +1,14 @@
 body {
-    background-image: url("img_hw_1/btFone.jpg");
+    background-image: url("img_hw_1-5/btFone.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    font-family: Tahoma, sans-serif;
 }
 
 h1 {
     color: rgb(19, 19, 19);
-    background-color: rgba(221, 219, 219, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 7px;
     margin: 50px 60px;
     border: 2px solid black;
@@ -17,14 +18,13 @@ h1 {
 
 }
 
-section {
+.actorInfo {
     display: flex;
     align-items: center;
-    background-color: rgba(244, 239, 232, 0.4);
+    background-color: rgba(244, 240, 233, 0.8);
     padding: 10px;
     border-radius: 10px;
     max-width: 1000px;
-    font-family: Tahoma, sans-serif;
     margin-top: 20px;
     margin-left: 60px;
 }
@@ -39,12 +39,17 @@ img {
 
 h3 {
     margin: 0;
-    color: #023059;
+    color: rgb(2, 48, 89);
     font-size: 20px;
 }
 
 h3 a {
     color: inherit;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: rgb(0, 86, 160);
     text-decoration: none;
 }
 
