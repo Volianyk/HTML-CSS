@@ -1,0 +1,47 @@
+
+.boxSize {
+    width: 200px;
+    height: 200px;
+}
+
+.firstBox {
+    background-color: #975c0e;
+}
+
+.secondBox {
+    background-color: #27970e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.secondBox p{
+    /*text-align: center;*/
+
+}
+.secondBox img{
+    width: 50%;
+}
+
+.thirdBox {
+    background-color: #970e77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex {
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center; /*вирівнювання елементів*/
+    gap: 20px; /*відступ між елементами*/
+    align-items: center; /*вирівнювання по висоті*/
+    flex-direction: column; /* напрямок розміщення елементів*/
+}
