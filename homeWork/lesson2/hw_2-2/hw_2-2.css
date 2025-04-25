@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.redBox {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+body {
+    background-color: #f6ddcf;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.redBox:hover {
+    border-radius: 50%;
+    background-color: #3e3d3d;
+    transition: 0.7s;
+}
