@@ -6,11 +6,14 @@
 body {
     background-color: rgba(79, 111, 83, 1.00);
     height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 .cardWrapper {
-    padding-top: 5vh;
-    gap: 1.7vw;
+    padding-top: 2rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    gap: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,30 +21,28 @@ body {
 }
 
 .card {
-    width: 12rem;
-    height: 11rem;
+    width: 14rem;
+    height: 12rem;
     background-color: rgba(210, 227, 201, 1.00);
-    border-radius: 7px;
+    border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px;
-    transition: transform 0.8s;
+    padding: 0.4rem;
+    transition: transform 0.8s ease-in-out;
 
 }
 
 .card:hover {
-    transition: transform 0.5s;
     transform: scale(1.2);
 }
 
 .card h2 {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     font-size: 1.3rem;
 }
 
 .card p {
     font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
+    line-height: 2;
 }
