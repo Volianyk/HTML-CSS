@@ -14,12 +14,11 @@ body {
     align-items: center;
     flex-direction: row;
     margin-top: 3rem;
-
 }
 
 .font {
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     background-color: rgb(225, 179, 118);
     border-radius: 0.3rem;
     display: flex;
@@ -28,7 +27,7 @@ body {
 }
 
 .font p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .rubik-pixels-regular {
@@ -43,7 +42,7 @@ body {
     font-style: normal;
 }
 
-.dancing-script {
+.dancing-script-regular {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
