@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 1.3rem;
+}
+
+header {
+    height: 20vh;
+    background-color: rgba(141, 132, 132, 1);
+}
+
+header, main, section, aside, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 60vh;
+    color: white;
+}
+
+.content {
+    flex-direction: column;
+    height: 100%;
+    width: 73vw;
+}
+
+main div section {
+    height: 20vh;
+}
+
+#sectionOne {
+    background-color: rgba(119, 105, 105, 1);
+}
+
+#sectionTwo {
+    background-color: rgba(100, 48, 48, 1);
+}
+
+#sectionThree {
+    background-color: rgba(68, 24, 24, 1);
+}
+
+.sidebar {
+    height: 100%;
+    width: 27vw;
+}
+
+#spamTop {
+    height: 50%;
+    background-color: rgba(147, 117, 117, 1);
+}
+
+#spamBottom {
+    height: 50%;
+    background-color: rgba(100, 76, 76, 1);
+}
+
+
+footer {
+    height: 20vh;
+    background-color: rgba(189, 189, 189, 1);
+}
