@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 5vh;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+main {
+    display: flex;
+    height: 74vh;
+}
+
+main section {
+    width: 60vw;
+    background-color: rgba(164, 164, 164, 1);
+}
+
+.sideBar {
+    width: 40vw;
+}
+
+.sideBarTop {
+    background: rgba(127, 122, 122, 1);
+    height: 40vh;
+}
+
+.sideBarBottom {
+    background: rgba(97, 80, 80, 1);
+    height: 34vh;
+}
+
+footer {
+    height: 21vh;
+}
+
+.footerFirst {
+    height: 9vh;
+    background: rgba(217, 217, 217, 1);
+}
+
+.footerSecond {
+    height: 11vh;
+    background: rgba(175, 169, 169, 1);
+}

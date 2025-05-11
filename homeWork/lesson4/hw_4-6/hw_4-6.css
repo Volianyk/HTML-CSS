@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+nav {
+    height: 5vh;
+    background: rgba(217, 217, 217, 1);
+}
+
+main {
+    height: 86vh;
+    display: flex;
+}
+
+.mainContent {
+    display: flex;
+}
+
+.firstContentSection {
+    width: 29vw;
+    background: rgba(164, 164, 164, 1);
+}
+
+.secondContentSection {
+    background: rgba(193, 193, 193, 1);
+    width: 31vw;
+}
+
+.sideBar {
+    width: 40vw;
+}
+
+.sideBarTop {
+    background: rgba(127, 122, 122, 1);
+    height: 50%;
+}
+
+.sideBarBottom {
+    background: rgba(107, 97, 97, 1);
+    height: 50%;
+}
+
+footer {
+    height: 9vh;
+    background: rgba(217, 217, 217, 1);
+}
