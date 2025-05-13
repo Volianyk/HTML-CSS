@@ -25,12 +25,12 @@ body {
 .preloader {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
 }
 
 .circle {
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     border: 5px solid rgb(90, 86, 86);
     display: flex;
@@ -38,9 +38,8 @@ body {
     align-items: center;
     color: black;
     font-family: Arial, sans-serif;
-    font-size: 60px;
-    opacity: 0;
-    animation: appear 3s infinite;
+    font-size: 40px;
+    animation: appear 4s infinite;
 
 }
 
@@ -60,15 +59,17 @@ body {
     animation-delay: 1s;
 }
 
-@keyframes appear {
-    from {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
+.circle:nth-child(5) {
+    animation-delay: 1.25s;
+}
 
-    to {
+@keyframes appear {
+    0%, 100% {
+        transform: translateX(-100px);
+        opacity: 0.4;
+    }
+    50% {
         transform: translateX(0) scale(1.2);
         opacity: 1;
-
     }
 }
