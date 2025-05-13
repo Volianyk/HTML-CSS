@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+
+* {
+    margin: 0;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-text {
+    color: #fff;
+    font-size: 55px;
+    font-family: Diplomata, sans-serif;
+    display: flex;
+}
+
+.diplomata-regular {
+    font-family: "Diplomata", serif;
+}
+
+.loading-text p {
+    animation: blink 2s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+        color: #f4e1e1;
+    }
+}
+

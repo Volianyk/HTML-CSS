@@ -1,0 +1,31 @@
+.pinkBox {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 100px auto;
+    animation: pulse 5s linear infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1.2) rotate(60deg) skew(30deg);
+    }
+    40% {
+        border-radius: 20%;
+        rotate: -60deg;
+    }
+    50% {
+
+        transform: translate(300px, 300px) skew(0);;
+    }
+    70% {
+        transform: scaleX(2) skewX(40deg);
+        /*transform: scaleY(2);*/
+    }
+    to {
+        transform: scale(1);
+        background-color: yellow;
+        rotate: 0;
+    }
+
+}
