@@ -7,7 +7,7 @@ body {
     align-items: center;
     background: linear-gradient(20deg, rgb(95, 243, 159) 0%, rgb(246, 121, 146) 100%);
     background-size: 300%;
-    animation: gradientMove 10s infinite;
+    animation: gradientMove 10s linear infinite;
 }
 
 @keyframes gradientMove {
@@ -39,7 +39,7 @@ body {
     color: black;
     font-family: Arial, sans-serif;
     font-size: 40px;
-    animation: appear 4s infinite;
+    animation: appear 4s linear infinite;
 
 }
 

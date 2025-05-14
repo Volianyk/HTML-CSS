@@ -9,48 +9,62 @@ body {
     background-size: cover;
 }
 
-.loader-ball {
-    width: 60px;
-    height: 60px;
-    background: #00aaff;
-    border-radius: 50%;
-    box-shadow: 0 0 20px #91ceed;
-    animation: moveBall 3s linear infinite;
+.ship_container {
+    animation: moveShip 3.5s linear infinite;
 }
 
-@keyframes moveBall {
+.ship_img {
+    width: 100px;
+    height: 60px;
+    animation: rotateShip 3s linear infinite;
+}
+
+@keyframes moveShip {
     0% {
-        transform: translate(0, 0);
+        transform: translate(0vw, 0px);
     }
     10% {
-        transform: translate(10vw, -30px);
+        transform: translate(10vw, -10px);
     }
     20% {
-        transform: translate(20vw, 0);
+        transform: translate(20vw, 0px);
     }
     30% {
-        transform: translate(30vw, 30px);
+        transform: translate(30vw, 10px);
     }
     40% {
-        transform: translate(40vw, 0);
+        transform: translate(40vw, 0px);
     }
     50% {
-        transform: translate(50vw, -30px);
+        transform: translate(50vw, -10px);
     }
     60% {
-        transform: translate(60vw, 0);
+        transform: translate(60vw, 0px);
     }
     70% {
-        transform: translate(70vw, 30px);
+        transform: translate(70vw, 10px);
     }
     80% {
-        transform: translate(80vw, 0);
+        transform: translate(80vw, 0px);
     }
     90% {
-        transform: translate(90vw, -30px);
+        transform: translate(90vw, -10px);
     }
     100% {
-        transform: translate(100vw, 0);
+        transform: translate(100vw, 0px);
+    }
+}
+
+
+@keyframes rotateShip {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
     }
 }
 
