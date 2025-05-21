@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6-6</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form sup {
+            color: red;
+        }
+
+        textarea {
+            resize: none;
+            width: 400px;
+            height: 200px;
+        }
+        .form-registration{
+            border: 5px solid black;
+            width: 30%;
+            border-radius: 10px;
+            padding: 50px;
+        }
+        input[type=text] {
+            background: #249a06;
+            border: #057373 solid 2px;
+            border-radius: 10px;
+            color: #212145;
+        }
+        input [type=text]::placeholder {
+            color: black;
+        }
+        input[type=text]:focus {
+            outline: 2px solid red;
+
+        }
+    </style>
+</head>
+<body>
+<form class="form-registration">
+    <label for="name"> enter your name</label>
+    <input type="text" name="name" id="name" placeholder="Name" required> <sup>*</sup>
+
+    <label for="email"> enter your email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required> <sup>*</sup>
+
+    <label for="password"> enter your password</label>
+    <input type="password" name="password" id="password" placeholder="*********" required> <sup>*</sup>
+
+    <label>стать</label>
+    <label><input type="radio" name="gender" value="male">чоловіча</label>
+    <label><input type="radio" name="gender" value="female">жіноча</label>
+
+    <label><input type="checkbox" name="newsletter">Підписатись на новини</label>
+
+    <label for="ddd">country
+        <select id="ddd">
+            <option value="ua">оберіть країну</option>
+            <option value="ua">україна</option>
+            <option value="ua">україна</option>
+            <option value="ua">україна</option>
+            <option value="ua">україна</option>
+            <option value="ua">україна</option>
+        </select>
+    </label>
+    <label for="phone"> enter your phone model
+        <select id="phone">
+            <optgroup label="apple">
+                <option value="apple1">a1</option>
+                <option value="apple2">a2</option>
+                <option value="apple3">a3</option>
+                <option value="apple4">a4</option>
+            </optgroup>
+            <optgroup label="samsung">
+                <option value="samsung1">s1</option>
+                <option value="samsung2">s2</option>
+                <option value="samsung3">s3</option>
+            </optgroup>
+        </select>
+    </label>
+
+    <label for="comment"> comment</label>
+    <textarea id="comment" rows="4" cols="30"></textarea>
+
+    <div>
+        <input type="submit" value="send form">
+        <input type="reset" value="reset form">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6-3</title>
+    <style>
+        div :first-child { /*псевдоклас*/
+            color: red;
+        }
+
+        div p::first-letter {
+            color: green; /*псевдоелемент*/
+            font-size: 20px;
+        }
+
+        div p:last-of-type {
+            color: blue;
+        }
+
+        ul li:nth-child(2n){
+            color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Delectus ducimus iure necessitatibus sunt.</p>
+    <p>Est laudantium nam qui voluptatum.</p>
+    <p>Asperiores necessitatibus nemo rem sunt!</p>
+    <p>Fuga porro reiciendis repellat voluptatibus?</p>
+    <p>Consectetur maiores odio quisquam saepe!</p>
+    <p>Ab doloremque error iure modi?</p>
+    <p>Delectus doloremque ducimus eligendi provident.</p>
+    <span>Lorem ipsum.</span><span>Illo, repudiandae.</span><span>Alias, aliquid.</span><span>Enim, sint!</span>
+</div>
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Deserunt ex harum magnam ratione similique, velit.</li>
+    <li>Aliquid ea error exercitationem facilis maiores natus?</li>
+    <li>At atque delectus dolorem nostrum, quia veniam!</li>
+    <li>Ab aperiam laborum, molestias quisquam vitae voluptates!</li>
+    <li>Aliquam eveniet incidunt magnam optio repellat, rerum?</li>
+    <li>Harum non quaerat quia sapiente velit! Error!</li>
+    <li>Ipsam numquam officia perspiciatis repellendus sint totam.</li>
+    <li>Debitis exercitationem incidunt necessitatibus odio ratione sit.</li>
+    <li>Asperiores consequuntur eveniet, ex nobis qui unde.</li>
+    <li>Aspernatur assumenda, cum fuga quia sequi vero?</li>
+    <li>Accusamus aliquid culpa id necessitatibus, obcaecati recusandae.</li>
+    <li>Aliquam blanditiis, delectus dolorum facilis sit tempora!</li>
+    <li>Asperiores dolore inventore magni possimus repudiandae voluptatibus!</li>
+    <li>Aspernatur consequuntur cupiditate dignissimos doloribus quibusdam recusandae?</li>
+</ul>
+</body>
+</html>
