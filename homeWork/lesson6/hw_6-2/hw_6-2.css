@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(2, 139, 139, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    height: 50vh;
+    width: 30vw;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 10px;
+}
+
+h3 {
+    background-color: rgba(233, 243, 243, 255);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type='email'], input[type='password'] {
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+
+}
+
+.form-registration div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form input[type=submit] {
+    background-color: rgba(233, 243, 243, 255);
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+}
