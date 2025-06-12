@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     color: #000;
     text-align: center;
@@ -16,11 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding: 20px 0;
     width: 1180px;
-    height: 772px;
+    height: 900px;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .card {
@@ -29,8 +24,8 @@ body {
 }
 
 .card img {
+    width: 100%;
     margin-bottom: 20px;
-
 }
 
 .card h4 {

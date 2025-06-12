@@ -1,0 +1,10 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .cards-container {
+        width: 720px;
+        height: 590px;
+    }
+
+    .card {
+        width: 218px;
+    }
+}
