@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9-1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            height: 100vh;
+            background-color: darkkhaki;
+            grid-template-columns: repeat(3, 4fr);
+            gap: 50px;
+        }
+
+        .container div:nth-child(5) {
+            background-color: #249a06;
+        }
+
+        .box {
+            background-color: #057373;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>
